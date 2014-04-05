@@ -266,13 +266,14 @@ select{
 #submit{
 	background: linear-gradient(rgb(219,65,29), rgb(76,76,76));	
 	border:1px solid rgb(255,69,66);
-	height: 40px;
+	height: 35px;
 	line-height: 50px;
 	width: 100px;
 	font-size: 1.5em;
 	border-radius: 5px;
 	color: rgb(240,233,220);
 	margin-top: 20px;
+	padding-top: 10
 	clear: both;
 
 }
@@ -399,21 +400,21 @@ select{
 
 
 
-.attractions_blog_box{
+.project_blog_box{
 	width: 455px; /* 47.2433333%; */
 	float: left;
 	margin:0 1.041666666% 50px 1.041666666% /* 10px */;
 }
 
 
-.attractions_blog{
+.project_blog{
 	width:100%; /* 450/960 */
 	height: 302px;
 	padding: 1.041666666% 1.041666666% 1.041666666% 0; /* 10px */
 }
 
 
-.attractions_blog div{
+.project_blog div{
 	width: 141px /* 30% */;
 	height:150px;
 	margin: 5px 5px 5px 0;
@@ -421,7 +422,7 @@ select{
 	float: left;
 }
 
-.attractions_blog img{
+.project_blog img{
 	width:50%;
 	float: left;
 	padding-right: 10px;
@@ -446,25 +447,25 @@ select{
 	padding-left:2%;
 }
 
-.attractions_blog p{
+.project_blog p{
 	line-height: 16px;
 	margin: 0 8px 5px 0;
 	font-size: 1.5em;
 	padding-left:3%;
 }
 
-.attractions_blog h4{
+.project_blog h4{
 	margin:5px 10px 5px 0;
 	font-size: 1.375em;
 	padding-left:3%;
 }
 
-.attractions_blog p a{
+.project_blog p a{
 	display: block;
 	margin-top: 5px;
 }
 
-.attractions_blog_box h2{
+.project_blog_box h2{
 	margin-left: 0;
 	margin-top:0;
 	margin-bottom:0;
