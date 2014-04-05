@@ -24,6 +24,11 @@ h1{
 	width:450px;
 }
 
+#background_home{
+	background-image: url("../images/group.jpg") ;
+
+}
+
 
 /* ================================= $Navigation ============================ */
 
@@ -203,13 +208,6 @@ form{
 	margin-left:50px;
 }
 
-h1{
-	color: #83FF87;
-	font-size: 3.5em;
-	margin-bottom: 0;
-	margin-top:20px;
-	text-align:left;
-}
 
 /* =============== $Form Input ====================*/
 
@@ -273,7 +271,7 @@ select{
 	border-radius: 5px;
 	color: rgb(240,233,220);
 	margin-top: 20px;
-	padding-top: 10
+	padding-top: 10;
 	clear: both;
 
 }
@@ -336,7 +334,7 @@ select{
 	margin: 5px 10px 5px 0;
 	font-size: 1.3em;
 	text-transform: uppercase;
-	color:#DB411D;
+	color: #DB411D;
 	padding-left:2%;
 	padding-top: 0;
 }
@@ -359,6 +357,8 @@ select{
 	margin:5px 10px 5px 0;
 	font-size: 1.375em;
 	padding-left:3%;
+	color: #DB411D;
+
 }
 
 .project_blog p a{
@@ -379,102 +379,28 @@ select{
 	background-repeat: fixed;
 }*/
 
+/* ================================ $Section  One ========================== */
+
 #section_one{
 	 height:225px;
-	 padding-bottom: 30px;
+	 padding-bottom: 300px;
 	 background-color: transparent;
 }
 
 
 #text{
 	text-transform: capitalize;
-
+	margin: 0 auto
 	font-family: Helvetica;
 	font-size:2.5em;
 	line-height:50px;
 	padding-left: 15%; /* 100px/960px */
 }
 
-
-
-
-
-
-.project_blog_box{
-	width: 455px; /* 47.2433333%; */
-	float: left;
-	margin:0 1.041666666% 50px 1.041666666% /* 10px */;
 }
 
 
-.project_blog{
-	width:100%; /* 450/960 */
-	height: 302px;
-	padding: 1.041666666% 1.041666666% 1.041666666% 0; /* 10px */
-}
-
-
-.project_blog div{
-	width: 141px /* 30% */;
-	height:150px;
-	margin: 5px 5px 5px 0;
-	background: rgb(240,240,240);
-	float: left;
-}
-
-.project_blog img{
-	width:50%;
-	float: left;
-	padding-right: 10px;
-	padding-left:2%;
-}
-#blog_body {
-	background: rgb(240,240,240);
-	margin-top: 20px;
-}
-
-#blog_title{
-	margin: 5px 10px 5px 0;
-	font-size: 1.3em;
-	text-transform: uppercase;
-	color: rgb(0,71,109);
-	padding-left:2%;
-	padding-top: 0;
-}
-
-#blog_title~p{
-	font-size: 1.5em;
-	padding-left:2%;
-}
-
-.project_blog p{
-	line-height: 16px;
-	margin: 0 8px 5px 0;
-	font-size: 1.5em;
-	padding-left:3%;
-}
-
-.project_blog h4{
-	margin:5px 10px 5px 0;
-	font-size: 1.375em;
-	padding-left:3%;
-}
-
-.project_blog p a{
-	display: block;
-	margin-top: 5px;
-}
-
-.project_blog_box h2{
-	margin-left: 0;
-	margin-top:0;
-	margin-bottom:0;
-	width: 62%;
-	float:left;	
-}
-
-
-/* ================================ $Section Two ========================== */
+/* ================================ $Section Two  &   $Responsive  ========================== */
 
 #section_two{
 	 height: 250px;
@@ -486,6 +412,7 @@ select{
 #responsive  {
 	width: 20.833333333%; /* 200px/960px */ 
 	float: left;
+	padding-top: 50px;
 	padding: 0 6.25%; /* 60px/960px */
 	text-align: center;
 	background-color: #636363;
@@ -526,7 +453,7 @@ select{
 
 #middle_section{
 	 text-align: center;
-	 background: transparent;
+	 background: white;
 	 padding: 25px 5px;
 	 margin-top: 10px;
 }
