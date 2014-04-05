@@ -1,0 +1,558 @@
+html{
+background-image: url("../images/mochaGrunge.png") ;
+background-repeat: fixed;
+background-color: #eeeeee; 
+}
+
+body{
+	width:75%;  /* 960px/1280px */
+	margin: 1.5% auto 0;
+	background:white;
+	font-family: helvetica;
+	font-size:62.5%;   
+	padding-top: 130px;
+	box-shadow: 0px 0px 7px 2px #000000; 
+}
+
+
+h1{
+	text-indent: -9999px;
+	background: url(../images/Taskaholic.png);
+	background-repeat: no-repeat;
+	padding-bottom: 0px;
+	height: 89px;
+	width:450px;
+}
+
+
+/* ================================= $Navigation ============================ */
+
+#navigation{
+	 position: fixed;
+	 left: 9.375%; /* 120px/1280px */
+	 top: 0;
+	 width: 78.125%;	
+	 padding: 0 1.5%; /* 20px/1000px*/
+ 	 background-color:#8C8B8B ;
+ 	 box-shadow: 0px 2px 2px #000000; 
+ 	 z-index:2;
+ 	 overflow: hidden;
+
+
+}
+
+article{
+	overflow: hidden;
+}
+
+
+nav>ul{
+	margin: 0;
+    padding: 0px 1% ;/* 10px/1000px */ /* 20px/1000px */
+    text-align: center;
+    width: 64%; /* 640px/1000px */
+    line-height: 97px;
+    float: left;
+    height: 110px;
+}
+
+nav ul~ul{
+	 width: 64%; /* 640px/1000px */
+}
+
+
+nav ul>li{
+	padding-left:0;
+}
+
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	text-align: center; 
+	font-size: 1.6em;
+	text-transform: uppercase;
+	font-weight: bold; 
+	padding: 0 1.041666666%; /*10px/960px*/
+
+}
+
+nav ul li a{
+	text-decoration: none;
+	color:#ffffff;
+}
+
+nav ul li a:hover{
+	color: #DB411D;
+}
+#image{
+	width: 100%;
+	position: absolute;
+	top: 5px;
+}
+
+#image img{
+	width: 100%;
+}
+
+/* ============================= $Sign In & Register ======================== */
+
+form{
+	padding-left: 370px;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+#log_in{
+
+	margin-bottom: 250px;
+}
+
+
+#sign_in a{
+	margin-right: 0px;
+	margin-left: 0px;
+	background: linear-gradient(rgb(219,65,29), rgb(140,139,139));
+	border-radius:0px;
+	padding: 7px;
+	color: rgb(242,242,242);
+	width: 100px;
+
+}
+
+#register{
+	width: 100px;
+
+}
+
+#register a{
+	background: linear-gradient(rgb(219,65,29), rgb(140,139,139));
+	color: rgb(255,255,255);
+	border-radius:0px;
+	padding: 7px;
+	width: 100px;
+
+}
+
+#sign_in a:hover {
+
+	background: linear-gradient(rgb(140,139,139), rgb(219,65,29));
+	color: rgb(250,250,250);
+}
+
+#register a:hover{
+	background: linear-gradient(rgb(140,139,139), rgb(219,65,29));
+	color: rgb(250,250,250);
+}
+
+#sign_up_button a{
+	display:block;
+	text-align: right;
+	width: 150px;
+	float:left;
+	font-size: 1.2em;
+	padding:2%;
+	background: linear-gradient(rgb(219,65,29), rgb(140,139,139));
+	color:rgb(220,220,220);
+	border-radius:8px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 20px;
+	margin-left: 4.8018%;
+	margin-right: 63px;
+	font-weight: bold;
+}
+
+#sign_up_button a:hover{
+	background: linear-gradient(rgb(140,139,139), rgb(219,65,29));
+	color:rgb(230,230,230);	
+	box-shadow: 0 0 1px .5px #000;
+}
+
+
+.float_left{
+ 	float: left;
+}
+
+.float_right{
+ 	float: right;
+}
+
+.clear{
+	clear: both;
+}
+
+.round_corner{
+	border-radius: 4px;
+}
+
+
+/*==================== $Box ===========================*/
+
+
+#box p{
+	font-size: 1.8em;
+	display: inline-block;
+	margin-top: 5px;
+	text-align: left;
+}
+
+#box {
+	width: 26%; /* 260px/1000px */
+	float: left;
+	color: #E3E6E9;
+	margin-left:50px;
+}
+
+h1{
+	color: #83FF87;
+	font-size: 3.5em;
+	margin-bottom: 0;
+	margin-top:20px;
+	text-align:left;
+}
+
+/* =============== $Form Input ====================*/
+
+input{
+	width: 50%;
+	height: 20px;
+	margin-bottom: 10px;
+}
+
+
+#user_info{
+	overflow:hidden;
+}
+
+#dropbox{
+	overflow: hidden;
+
+	float: left;
+}
+
+
+
+
+.form_focus:focus, .form_hover:hover {
+	background-color: #CCFF33;
+	opacity: 4;
+}
+
+select{
+	padding: 10px;
+	border-radius: 5px;
+	margin-right: 10px
+}
+
+.float_left{
+ 	float: left;
+}
+
+.float_right{
+ 	float: right;
+}
+
+.clear{
+	clear: both;
+}
+
+.round_corner{
+	border-radius: 4px;
+}
+
+
+/* =============== $button ====================*/
+
+#submit{
+	background: linear-gradient(rgb(219,65,29), rgb(76,76,76));	
+	border:1px solid rgb(255,69,66);
+	height: 40px;
+	line-height: 50px;
+	width: 100px;
+	font-size: 1.5em;
+	border-radius: 5px;
+	color: rgb(240,233,220);
+	margin-top: 20px;
+	clear: both;
+
+}
+
+#btn{	
+	padding-left: 0%;
+	text-align: center;
+	clear: both;
+
+}
+
+#submit:hover{
+	background: linear-gradient(rgb(76,76,76), rgb(219,65,29));
+	color: white;
+}
+
+/* =============== $My Projects ====================*/
+
+
+.project_blog_box{
+	width: 455px; /* 47.2433333%; */
+	float: left;
+	margin:0 1.041666666% 50px 1.041666666% /* 10px */;
+
+}
+
+
+.project_blog{
+	width:100%; /* 450/960 */
+	height: 302px;
+	padding: 1.041666666% 1.041666666% 1.041666666% 0; /* 10px */
+	
+
+}
+
+
+.project_blog div{
+	width: 141px /* 30% */;
+	height:150px;
+	margin: 5px 5px 5px 0;
+	background: rgb(240,240,240);
+	float: left;
+
+
+}
+
+.project_blog img{
+	width:50%;
+	float: left;
+	padding-right: 10px;
+	padding-left:2%;
+}
+#blog_body {
+	background: rgb(240,240,240);
+	margin-top: 20px;
+
+}
+
+#blog_title{
+	margin: 5px 10px 5px 0;
+	font-size: 1.3em;
+	text-transform: uppercase;
+	color:#DB411D;
+	padding-left:2%;
+	padding-top: 0;
+}
+
+
+
+#blog_title~p{
+	font-size: 1.5em;
+	padding-left:2%;
+}
+
+.project_blog p{
+	line-height: 16px;
+	margin: 0 8px 5px 0;
+	font-size: 1.5em;
+	padding-left:3%;
+}
+
+.project_blog h4{
+	margin:5px 10px 5px 0;
+	font-size: 1.375em;
+	padding-left:3%;
+}
+
+.project_blog p a{
+	display: block;
+	margin-top: 5px;
+}
+
+.project_blog_box h2{
+	margin-left: 0;
+	margin-top:0;
+	margin-bottom:0;
+	width: 62%;
+	float:left;	
+}
+
+/*article{
+	background-image: url("../images/group.jpg") ;
+	background-repeat: fixed;
+}*/
+
+#section_one{
+	 height:225px;
+	 padding-bottom: 30px;
+	 background-color: transparent;
+}
+
+
+#text{
+	text-transform: capitalize;
+
+	font-family: Helvetica;
+	font-size:2.5em;
+	line-height:50px;
+	padding-left: 15%; /* 100px/960px */
+}
+
+
+
+
+
+
+.attractions_blog_box{
+	width: 455px; /* 47.2433333%; */
+	float: left;
+	margin:0 1.041666666% 50px 1.041666666% /* 10px */;
+}
+
+
+.attractions_blog{
+	width:100%; /* 450/960 */
+	height: 302px;
+	padding: 1.041666666% 1.041666666% 1.041666666% 0; /* 10px */
+}
+
+
+.attractions_blog div{
+	width: 141px /* 30% */;
+	height:150px;
+	margin: 5px 5px 5px 0;
+	background: rgb(240,240,240);
+	float: left;
+}
+
+.attractions_blog img{
+	width:50%;
+	float: left;
+	padding-right: 10px;
+	padding-left:2%;
+}
+#blog_body {
+	background: rgb(240,240,240);
+	margin-top: 20px;
+}
+
+#blog_title{
+	margin: 5px 10px 5px 0;
+	font-size: 1.3em;
+	text-transform: uppercase;
+	color: rgb(0,71,109);
+	padding-left:2%;
+	padding-top: 0;
+}
+
+#blog_title~p{
+	font-size: 1.5em;
+	padding-left:2%;
+}
+
+.attractions_blog p{
+	line-height: 16px;
+	margin: 0 8px 5px 0;
+	font-size: 1.5em;
+	padding-left:3%;
+}
+
+.attractions_blog h4{
+	margin:5px 10px 5px 0;
+	font-size: 1.375em;
+	padding-left:3%;
+}
+
+.attractions_blog p a{
+	display: block;
+	margin-top: 5px;
+}
+
+.attractions_blog_box h2{
+	margin-left: 0;
+	margin-top:0;
+	margin-bottom:0;
+	width: 62%;
+	float:left;	
+}
+
+
+/* ================================ $Section Two ========================== */
+
+#section_two{
+	 height: 250px;
+	 background-color:#636363;
+	 padding-top:40px;
+	 padding-bottom: 20px;
+}
+
+#responsive  {
+	width: 20.833333333%; /* 200px/960px */ 
+	float: left;
+	padding: 0 6.25%; /* 60px/960px */
+	text-align: center;
+	background-color: #636363;
+}
+
+
+#section_two p{
+	 font-size: 1.5em;
+	 margin-top:6px;
+	 line-height:17px;
+	 color: white;
+}
+
+#section_two h2{
+	 font-size: 2.3em; 
+	 margin-bottom: 6px;
+	 color: white;
+
+}
+
+
+#section_two a{
+	 font-weight: bold;
+	 text-decoration:none;
+	 color: #DB411D;
+	 font-size: 1.2em;
+	 line-height: 25px;
+}
+
+
+
+#section_two #responsive img{
+	width: 26.737967914%; /* 50px/187px */
+}
+
+
+/* ================================= $Middle section ============================ */
+
+#middle_section{
+	 text-align: center;
+	 background: transparent;
+	 padding: 25px 5px;
+	 margin-top: 10px;
+}
+
+#middle_section p{
+	 width: 62.5% ;/* 600px/960px */
+	 margin:0 auto;
+	 font-size: 1.5em;
+	 line-height:25px;
+}
+
+#middle_section h2{
+	 margin:0 0 5px;
+	 font-size: 3em;
+	 color: #DB411D;
+
+}
+
+
+/*========================================= $footer ===============================*/
+
+footer{
+	background-color: #DB411D;
+	text-align: center;
+	font-size: 1.2em;
+	padding: 10px 10.416666666%; /* 10px/960px */
+}
+
+
+
