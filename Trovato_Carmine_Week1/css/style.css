@@ -10,7 +10,7 @@ body{
 	background:white;
 	font-family: helvetica;
 	font-size:62.5%;   
-	padding-top: 130px;
+	padding-top: 20px;
 	box-shadow: 0px 0px 7px 2px #000000; 
 }
 
@@ -36,9 +36,10 @@ h1{
 	 position: fixed;
 	 left: 9.375%; /* 120px/1280px */
 	 top: 0;
+	 height:70px;	 
 	 width: 78.125%;	
 	 padding: 0 1.5%; /* 20px/1000px*/
- 	 background-color:#8C8B8B ;
+ 	 background-color:#636363 ;
  	 box-shadow: 0px 2px 2px #000000; 
  	 z-index:2;
  	 overflow: hidden;
@@ -103,6 +104,8 @@ nav ul li a:hover{
 
 form{
 	padding-left: 370px;
+	padding-top: 50px;
+	padding-bottom: 40px;
 	margin: 0 auto;
 	overflow: auto;
 }
@@ -114,9 +117,10 @@ form{
 
 
 #sign_in a{
+	text-decoration: none;
 	margin-right: 0px;
 	margin-left: 0px;
-	background: linear-gradient(rgb(219,65,29), rgb(140,139,139));
+	background: transparent;
 	border-radius:0px;
 	padding: 7px;
 	color: rgb(242,242,242);
@@ -130,7 +134,8 @@ form{
 }
 
 #register a{
-	background: linear-gradient(rgb(219,65,29), rgb(140,139,139));
+	text-decoration:none;
+	background: transparent;
 	color: rgb(255,255,255);
 	border-radius:0px;
 	padding: 7px;
@@ -140,30 +145,32 @@ form{
 
 #sign_in a:hover {
 
-	background: linear-gradient(rgb(140,139,139), rgb(219,65,29));
+	background: rgb(219,65,29);
 	color: rgb(250,250,250);
 }
 
 #register a:hover{
-	background: linear-gradient(rgb(140,139,139), rgb(219,65,29));
+	background:  rgb(219,65,29);
 	color: rgb(250,250,250);
 }
 
 #sign_up_button a{
-	display:block;
+	text-decoration: none;
 	text-align: right;
-	width: 150px;
+	width: 90px;
+	height:10px;
 	float:left;
-	font-size: 1.2em;
-	padding:2%;
+	line-height: 15px;
+	font-size: .8em;
+	padding:020px;
 	background: linear-gradient(rgb(219,65,29), rgb(140,139,139));
 	color:rgb(220,220,220);
 	border-radius:8px;
 	text-transform: uppercase;
 	text-align: center;
-	margin-top: 20px;
-	margin-left: 4.8018%;
-	margin-right: 63px;
+	margin-top: 0px;
+	margin-left: 300px;
+	margin-right: 0px;
 	font-weight: bold;
 }
 
@@ -230,9 +237,8 @@ input{
 
 
 
-
 .form_focus:focus, .form_hover:hover {
-	background-color: #CCFF33;
+	background-color: #FFFF99;
 	opacity: 4;
 }
 
@@ -263,15 +269,14 @@ select{
 
 #submit{
 	background: linear-gradient(rgb(219,65,29), rgb(76,76,76));	
-	border:1px solid rgb(255,69,66);
 	height: 35px;
-	line-height: 50px;
+	line-height: 30px;
 	width: 100px;
-	font-size: 1.5em;
+	font-size: 1.4em;
 	border-radius: 5px;
 	color: rgb(240,233,220);
 	margin-top: 20px;
-	padding-top: 10;
+	padding-bottom: 15px;
 	clear: both;
 
 }
@@ -279,6 +284,7 @@ select{
 #btn{	
 	padding-left: 0%;
 	text-align: center;
+	padding-bottom: 15px;
 	clear: both;
 
 }
@@ -290,10 +296,17 @@ select{
 
 /* =============== $My Projects ====================*/
 
+#project_background{
+	margin-top: 50px;
+}
+
+
+
 
 .project_blog_box{
 	width: 455px; /* 47.2433333%; */
 	float: left;
+	margin-top: 70px;
 	margin:0 1.041666666% 50px 1.041666666% /* 10px */;
 
 }
@@ -370,6 +383,7 @@ select{
 	margin-left: 0;
 	margin-top:0;
 	margin-bottom:0;
+	font-size: 1.8em;
 	width: 62%;
 	float:left;	
 }
@@ -400,7 +414,7 @@ select{
 }
 
 
-/* ================================ $Section Two  &   $Responsive  ========================== */
+/* ================================ $Section Two  &   $icons  ========================== */
 
 #section_two{
 	 height: 250px;
@@ -409,13 +423,16 @@ select{
 	 padding-bottom: 20px;
 }
 
-#responsive  {
-	width: 20.833333333%; /* 200px/960px */ 
+#icons  {
+	width: 20.833333333%; 
 	float: left;
 	padding-top: 50px;
-	padding: 0 6.25%; /* 60px/960px */
+	padding: 0 6.25%; 
 	text-align: center;
 	background-color: #636363;
+}
+#icons img{
+	margin-top: 20px;
 }
 
 
@@ -428,7 +445,7 @@ select{
 
 #section_two h2{
 	 font-size: 2.3em; 
-	 margin-bottom: 6px;
+	 margin-bottom: 2px;
 	 color: white;
 
 }
@@ -436,7 +453,7 @@ select{
 
 #section_two a{
 	 font-weight: bold;
-	 text-decoration:none;
+	 text-decoration: none;
 	 color: #DB411D;
 	 font-size: 1.2em;
 	 line-height: 25px;
@@ -444,7 +461,7 @@ select{
 
 
 
-#section_two #responsive img{
+#section_two #icons img{
 	width: 26.737967914%; /* 50px/187px */
 }
 
@@ -462,7 +479,7 @@ select{
 	 width: 62.5% ;/* 600px/960px */
 	 margin:0 auto;
 	 font-size: 1.5em;
-	 line-height:25px;
+	 line-height:30px;
 }
 
 #middle_section h2{
