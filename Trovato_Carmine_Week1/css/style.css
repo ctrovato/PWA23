@@ -1,6 +1,7 @@
 html{
 background-image: url("../images/mochaGrunge.png") ;
 background-position: fixed;
+background-attachment: fixed;
 background-color: #eeeeee; 
 }
 
@@ -20,7 +21,8 @@ h1{
 	background: url(../images/Taskaholic.png);
 	background-repeat: no-repeat;
 	padding-bottom: 0px;
-	height: 89px;
+	margin-top: 16px;
+	height: 80px;
 	width:450px;
 }
 
@@ -89,6 +91,7 @@ nav ul li a{
 
 nav ul li a:hover{
 	color: #DB411D;
+	text-transform: white;
 }
 #image{
 	width: 100%;
@@ -436,11 +439,15 @@ select{
 }
 
 
+
 #section_two p{
 	 font-size: 1.5em;
 	 margin-top:6px;
+	 margin-bottom: 15px;
 	 line-height:17px;
 	 color: white;
+	 font-size:1.6em;
+	 line-height:25px;
 }
 
 #section_two h2{
