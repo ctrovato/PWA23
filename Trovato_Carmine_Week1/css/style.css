@@ -1,0 +1,503 @@
+html{
+background-image: url("../images/mochaGrunge.png") ;
+background-position: fixed;
+background-color: #eeeeee; 
+}
+
+body{
+	width:75%;  
+	margin: 1.5% auto 0;
+	background:white;
+	font-family: helvetica;
+	font-size:62.5%;   
+	padding-top: 20px;
+	box-shadow: 0px 0px 7px 2px #000000;
+}
+
+
+h1{
+	text-indent: -9999px;
+	background: url(../images/Taskaholic.png);
+	background-repeat: no-repeat;
+	padding-bottom: 0px;
+	height: 89px;
+	width:450px;
+}
+
+#background_home{
+	background-image: url("../images/group.jpg") ;
+
+}
+
+
+/* ================================= $Navigation ============================ */
+
+#navigation{
+	 position: fixed;
+	 left: 9.375%; /* 120px/1280px */
+	 top: 0;
+	 height:70px;	 
+	 width: 78.125%;	
+	 padding: 0 1.5%; /* 20px/1000px*/
+ 	 background-color:#636363 ;
+ 	 box-shadow: 0px 2px 2px #000000; 
+ 	 z-index:2;
+ 	 overflow: hidden;
+
+
+}
+
+article{
+	overflow: hidden;
+}
+
+
+nav>ul{
+	margin: 0;
+    padding: 0px 1% ;/* 10px/1000px */ /* 20px/1000px */
+    text-align: center;
+    width: 64%; /* 640px/1000px */
+    line-height: 97px;
+    float: left;
+    height: 110px;
+}
+
+nav ul~ul{
+	 width: 64%; /* 640px/1000px */
+}
+
+
+nav ul>li{
+	padding-left:0;
+}
+
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	text-align: center; 
+	font-size: 1.6em;
+	text-transform: uppercase;
+	font-weight: bold; 
+	padding: 0 1.041666666%; /*10px/960px*/
+
+}
+
+nav ul li a{
+	text-decoration: none;
+	color:#ffffff;
+}
+
+nav ul li a:hover{
+	color: #DB411D;
+}
+#image{
+	width: 100%;
+	position: absolute;
+	top: 5px;
+}
+
+#image img{
+	width: 100%;
+}
+
+/* ============================= $Sign In & Register ======================== */
+
+form{
+	padding-left: 370px;
+	padding-top: 50px;
+	padding-bottom: 40px;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+#log_in{
+
+	margin-bottom: 250px;
+}
+
+
+#sign_in a{
+	text-decoration: none;
+	margin-right: 0px;
+	margin-left: 0px;
+	background: transparent;
+	border-radius:0px;
+	padding: 7px;
+	color: rgb(242,242,242);
+	width: 100px;
+
+}
+
+#register{
+	width: 100px;
+
+}
+
+#register a{
+	text-decoration:none;
+	background: transparent;
+	color: rgb(255,255,255);
+	border-radius:0px;
+	padding: 7px;
+	width: 100px;
+
+}
+
+#sign_in a:hover {
+
+	background: rgb(219,65,29);
+	color: rgb(250,250,250);
+}
+
+#register a:hover{
+	background:  rgb(219,65,29);
+	color: rgb(250,250,250);
+}
+
+#sign_up_button a{
+	text-decoration: none;
+	text-align: right;
+	width: 90px;
+	height:10px;
+	float:left;
+	line-height: 15px;
+	font-size: .8em;
+	padding:020px;
+	background: linear-gradient(rgb(219,65,29), rgb(140,139,139));
+	color:rgb(220,220,220);
+	border-radius:8px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 0px;
+	margin-left: 300px;
+	margin-right: 0px;
+	font-weight: bold;
+}
+
+#sign_up_button a:hover{
+	background: linear-gradient(rgb(140,139,139), rgb(219,65,29));
+	color:rgb(230,230,230);	
+	box-shadow: 0 0 1px .5px #000;
+}
+
+
+.float_left{
+ 	float: left;
+}
+
+.float_right{
+ 	float: right;
+}
+
+.clear{
+	clear: both;
+}
+
+.round_corner{
+	border-radius: 4px;
+}
+
+
+/*==================== $Box ===========================*/
+
+
+#box p{
+	font-size: 1.8em;
+	display: inline-block;
+	margin-top: 5px;
+	text-align: left;
+}
+
+#box {
+	width: 26%; /* 260px/1000px */
+	float: left;
+	color: #E3E6E9;
+	margin-left:50px;
+}
+
+
+/* =============== $Form Input ====================*/
+
+input{
+	width: 50%;
+	height: 20px;
+	margin-bottom: 10px;
+}
+
+
+#user_info{
+	overflow:hidden;
+}
+
+#dropbox{
+	overflow: hidden;
+
+	float: left;
+}
+
+
+
+.form_focus:focus, .form_hover:hover {
+	background-color: #FFFF99;
+	opacity: 4;
+}
+
+select{
+	padding: 10px;
+	border-radius: 5px;
+	margin-right: 10px
+}
+
+.float_left{
+ 	float: left;
+}
+
+.float_right{
+ 	float: right;
+}
+
+.clear{
+	clear: both;
+}
+
+.round_corner{
+	border-radius: 4px;
+}
+
+
+/* =============== $button ====================*/
+
+#submit{
+	background: linear-gradient(rgb(219,65,29), rgb(76,76,76));	
+	height: 35px;
+	line-height: 30px;
+	width: 100px;
+	font-size: 1.4em;
+	border-radius: 5px;
+	color: rgb(240,233,220);
+	margin-top: 20px;
+	padding-bottom: 15px;
+	clear: both;
+
+}
+
+#btn{	
+	padding-left: 0%;
+	text-align: center;
+	padding-bottom: 15px;
+	clear: both;
+
+}
+
+#submit:hover{
+	background: linear-gradient(rgb(76,76,76), rgb(219,65,29));
+	color: white;
+}
+
+/* =============== $My Projects ====================*/
+
+#project_background{
+	margin-top: 50px;
+}
+
+
+
+
+.project_blog_box{
+	width: 455px; /* 47.2433333%; */
+	float: left;
+	margin-top: 70px;
+	margin:0 1.041666666% 50px 1.041666666% /* 10px */;
+
+}
+
+
+.project_blog{
+	width:100%; /* 450/960 */
+	height: 302px;
+	padding: 1.041666666% 1.041666666% 1.041666666% 0; /* 10px */
+	
+
+}
+
+
+.project_blog div{
+	width: 141px /* 30% */;
+	height:150px;
+	margin: 5px 5px 5px 0;
+	background: rgb(240,240,240);
+	float: left;
+
+
+}
+
+.project_blog img{
+	width:50%;
+	float: left;
+	padding-right: 10px;
+	padding-left:2%;
+}
+#blog_body {
+	background: rgb(240,240,240);
+	margin-top: 20px;
+
+}
+
+#blog_title{
+	margin: 5px 10px 5px 0;
+	font-size: 1.3em;
+	text-transform: uppercase;
+	color: #DB411D;
+	padding-left:2%;
+	padding-top: 0;
+}
+
+
+
+#blog_title~p{
+	font-size: 1.5em;
+	padding-left:2%;
+}
+
+.project_blog p{
+	line-height: 16px;
+	margin: 0 8px 5px 0;
+	font-size: 1.5em;
+	padding-left:3%;
+}
+
+.project_blog h4{
+	margin:5px 10px 5px 0;
+	font-size: 1.375em;
+	padding-left:3%;
+	color: #DB411D;
+
+}
+
+.project_blog p a{
+	display: block;
+	margin-top: 5px;
+}
+
+.project_blog_box h2{
+	margin-left: 0;
+	margin-top:0;
+	margin-bottom:0;
+	font-size: 1.8em;
+	width: 62%;
+	float:left;	
+}
+
+/*article{
+	background-image: url("../images/group.jpg") ;
+	background-repeat: fixed;
+}*/
+
+/* ================================ $Section  One ========================== */
+
+#section_one{
+	 height:225px;
+	 padding-bottom: 300px;
+	 background-color: transparent;
+}
+
+
+#text{
+	text-transform: capitalize;
+	margin: 0 auto
+	font-family: Helvetica;
+	font-size:2.5em;
+	line-height:50px;
+	padding-left: 15%; /* 100px/960px */
+}
+
+}
+
+
+/* ================================ $Section Two  &   $icons  ========================== */
+
+#section_two{
+	 height: 250px;
+	 background-color:#636363;
+	 padding-top:40px;
+	 padding-bottom: 20px;
+}
+
+#icons  {
+	width: 20.833333333%; 
+	float: left;
+	padding-top: 50px;
+	padding: 0 6.25%; 
+	text-align: center;
+	background-color: #636363;
+}
+#icons img{
+	margin-top: 20px;
+}
+
+
+#section_two p{
+	 font-size: 1.5em;
+	 margin-top:6px;
+	 line-height:17px;
+	 color: white;
+}
+
+#section_two h2{
+	 font-size: 2.3em; 
+	 margin-bottom: 2px;
+	 color: white;
+
+}
+
+
+#section_two a{
+	 font-weight: bold;
+	 text-decoration: none;
+	 color: #DB411D;
+	 font-size: 1.2em;
+	 line-height: 25px;
+}
+
+
+
+#section_two #icons img{
+	width: 26.737967914%; /* 50px/187px */
+}
+
+
+/* ================================= $Middle section ============================ */
+
+#middle_section{
+	 text-align: center;
+	 background: white;
+	 padding: 25px 5px;
+	 margin-top: 10px;
+}
+
+#middle_section p{
+	 width: 62.5% ;/* 600px/960px */
+	 margin:0 auto;
+	 font-size: 1.5em;
+	 line-height:30px;
+}
+
+#middle_section h2{
+	 margin:0 0 5px;
+	 font-size: 3em;
+	 color: #DB411D;
+
+}
+
+
+/*========================================= $footer ===============================*/
+
+footer{
+	background-color: #DB411D;
+	text-align: center;
+	font-size: 1.2em;
+	padding: 10px 10.416666666%; /* 10px/960px */
+}
+
+
+
