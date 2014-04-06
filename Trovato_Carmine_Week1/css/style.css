@@ -80,8 +80,7 @@ nav ul li{
 	font-size: 1.6em;
 	text-transform: uppercase;
 	font-weight: bold; 
-	padding: 0 1.041666666%; /*10px/960px*/
-
+	padding: 0 1.041666666%; 
 }
 
 nav ul li a{
@@ -404,11 +403,18 @@ select{
 	 background-color: transparent;
 }
 
+#section_one h2{
+	margin-bottom: 40px;
+
+}
+
+
 
 #text{
 	text-transform: capitalize;
 	margin: 0 auto
 	font-family: Helvetica;
+	margin-top: 10px;
 	font-size:2.5em;
 	line-height:50px;
 	padding-left: 15%; /* 100px/960px */
