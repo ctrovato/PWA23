@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang= "en">
+
+	<head> 
+		<meta charset = "utf-8" />
+		<meta name="viewport" content="initial-scale=1">
+		<link href = "css/style.css" rel= "stylesheet" />
+		<title>Taskaholic</title>
+		<link rel="shortcut icon" href="images/checkIcons.png">
+	</head>
+
+	<body>
+
+			<header>
+
+<!-- Navigation --> 
+				<div id="navigation">
+					<nav>
+						<div id="box">
+						<a href="index.html"><h1>Taskaholic</h1></a>
+						</div>
+						<ul id="nav_list">
+							<li> <a href = "projects.html">My Projects</a></li>
+							<li> <a href = "#">Community Projects</a></li>
+							<li> <a href = "#">Teammates</a></li>
+							<span id="register" class= "float_right"><a href="form.html">Sign Up</a> </span> <span id="sign_in" class= "float_right"> <a href="log_in.html">Log In</a></span>			
+						</ul>
+					</nav>
+				</div>
+
+			</header>
+
+<!-- SIGN UP FORM --> 
+			<article>
+				<form>
+
+					<div id ="user_info">	
+						<h2>Sign Up</h2>
+						<h3>Please fill out the following personal information:</h3>
+						<p><label for = "name" class="float_left">First Name:</label>
+						 <input id ="name" class="float_left clear form_focus form_hover round_corner" type = "text" name = "name" maxlength = "40" placeholder ="First Name" required />
+						 </p>
+
+						 <p><label for = "name" class="float_left clear">Last Name:</label>
+						 <input id ="name" class="float_left clear form_focus form_hover round_corner" type = "text" name = "name" maxlength = "40" placeholder ="Last Name" required />
+						 </p>
+
+<!--  DATE  -->
+
+						<p>
+						<label for="first-date" class="clear float_left">Date of Birth</label>
+						<input type="date" value="" name="first-date" class="float_left clear form_focus form_hover round_corner" />
+						</p>
+
+
+
+						<p><label for= "tel" class="clear float_left">Email Address:</label> <input type="tel" id="tel" class="float_left clear form_focus form_hover round_corner" maxlength = "20" placeholder ="Email Address" required  />
+						</p>
+
+						 <p><label for = "name" class="float_left clear">Enter Password:</label>
+						 <input id ="password" class="float_left clear form_focus form_hover round_corner" type = "text" name = "name" maxlength = "40" placeholder ="Password" required />
+
+						 <p><label for = "name" class="float_left clear">Re-Enter Password:</label>
+						 <input id ="password" class="float_left clear form_focus form_hover round_corner" type = "text" name = "name" maxlength = "40" placeholder ="Re-Password" required />
+
+
+					</div>
+
+<!-- DROP BOX -->
+					<div id ="dropbox" class="float_left">	
+						<p>Newsletter: <br>Would You like to receive Newsletters via Email</p>
+						<select name = "marketing">
+							<option> Select One</option>
+							<option value = "week">Yes, Weekly</option>
+							<option value = "month">Yes, Monthly</option>
+							<option value = "annually">Yes, Annually</option>
+							<option value = "none">No, Thank You</option>
+						</select>
+					</div>
+
+
+
+<!-- SUBMIT -->
+
+				<a href="#" id="btn" ><input id="submit" class="float_left clear" type = "submit" value ="SUBMIT"/></a>
+
+
+			</form> 
+
+			</article>				
+
+<!-- Footer Copyright --> 
+			<footer>	
+				<p> &copy; Copyright 2014 - Taskaholic </p>
+			</footer>
+
+	</body>
+</html>
