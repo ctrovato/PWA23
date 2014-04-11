@@ -21,7 +21,7 @@ h1{
 	background-repeat: no-repeat;
 	padding-bottom: 0px;
 	height: 89px;
-	width:450px;
+	width:250px;
 }
 
 #background_home{
@@ -75,7 +75,7 @@ nav ul li{
 	list-style: none;
 	display: inline-block;
 	text-align: center; 
-	font-size: 1.6em;
+	font-size: 1.4em;
 	text-transform: uppercase;
 	font-weight: bold; 
 	padding: 0 1.041666666%; /*10px/960px*/
@@ -100,6 +100,68 @@ nav ul li a:hover{
 	width: 100%;
 }
 
+
+
+/* ============================= $Profile  Tabs ======================== */
+
+#profile{
+	margin-top: 50px;
+	margin-bottom: 280px;
+}
+
+.wrapper {
+  margin:30px auto;
+  width:80%;
+  font-family:sans-serif;
+  color:#555;
+  font-size:14px;
+  line-height:24px;
+}
+h1 {
+  font-size:20px;
+  font-weight:bold;
+  text-align:center;
+  text-transform:uppercase;
+}
+h1 + p {
+  text-align:center;
+  margin:20px 0;
+  font-size:16px;
+}
+
+.tabs >li {
+    float:left;
+    width:20%;
+    list-style: none;
+  }
+
+ .tabs >li> a {
+    display:block;
+    text-align:center;
+    text-decoration:none;
+    text-transform:uppercase;
+    color:#888;
+    padding:20px 0;
+    border-bottom:2px solid #888;
+    background:#f7f7f7;
+    
+
+
+
+}
+.tabgroup {
+
+    padding:30px;
+    box-shadow:0 3px 10px rgba(0,0,0,.3);
+
+}
+.clearfix:after {
+  content:"";
+  display:table;
+  clear:both;
+}
+
+
 /* ============================= $Sign In & Register ======================== */
 
 form{
@@ -112,7 +174,7 @@ form{
 
 #log_in{
 
-	margin-bottom: 250px;
+	margin-bottom: 280px;
 }
 
 
@@ -294,13 +356,193 @@ select{
 	color: white;
 }
 
+/* ====================================== $Projects ============================*/
+ .projects{
+	margin-bottom: 180px;
+
+ }
+
+
+
+/* ====================================== $Employees =================================*/
+
+#employee_body {
+	background: rgb(240,240,240);
+	margin-top: 40px;
+	width: 300px;
+
+}
+
+.employee_blog{
+	width:300; /* 450/960 */
+	height: 520px;
+	padding: 1.041666666% 1.041666666% 1.041666666% 0; /* 10px */
+	margin-top: 20px;
+}
+
+.employee_blog h4{
+	margin:5px 10px 5px 0;
+	font-size: 1.375em;
+	padding-left:3%;
+	color: #DB411D;
+
+}
+
+.employee_blog a{	
+	font-size: 1.4em;
+	padding-left:3%;
+	color: black;
+
+}
+
+
+
+
+/* ============== $Accordion ============== */
+
+#teammates{
+	margin-top: 40px;
+	margin-left: 20px;
+
+}
+
+.accordion {
+   	margin: 50px; 
+   	overflow: hidden;
+   	margin-bottom: 300px;
+}
+	
+dt, dd {
+    padding: 10px;
+    border: 1px red;
+    border-bottom: 0; 
+}
+
+dt, dd:last {
+     border-bottom: 1px red; 
+}
+	  
+ a {
+      display: block;
+      color: black;
+      font-weight: bold;
+}
+   
+dd {
+     border-top: 0; 
+     font-size: 12px;
+}
+dd:last {
+    border-top: 1px solid white;
+    position: relative;
+    top: -1px;
+}
+
+
+/* ================================== $Community ==========================*/
+
+#community{
+	margin-top: 40px;
+	margin-bottom: 100px;
+	margin-left: 30px;
+}
+
+#community h2{
+	margin-left: 0;
+	margin-top:0;
+	margin-bottom:0;
+	font-size: 1.8em;
+	width: 62%;
+	float:left;	
+}
+
+.community_info{
+	line-height: 24px;
+	margin: 0 8px 5px 0;
+	font-size: 1.5em;
+	padding-left:3%;
+}
+
+
+
+/* ================================== $Slider ==========================*/
+
+#myslider {
+  position: relative;
+  overflow: hidden;
+  margin: 20px auto 0 auto;
+  border-radius: 4px;
+}
+
+#myslider ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 200px;
+  list-style: none;
+}
+
+#myslider ul li {
+  position: relative;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 500px;
+  height: 300px;
+  background: #ccc;
+  text-align: center;
+  line-height: 300px;
+}
+
+a.control_prev, a.control_next {
+  position: absolute;
+  top: 40%;
+  z-index: 999;
+  display: block;
+  padding: 4% 3%;
+  width: auto;
+  height: auto;
+  background: #2a2a2a;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+a.control_prev:hover, a.control_next:hover {
+  
+  -webkit-transition: all 0.2s ease;
+  background-color: #DB411D;
+  color: black;
+
+}
+
+a.control_prev {
+  border-radius: 0 2px 2px 0;
+}
+
+a.control_next {
+  right: 0;
+  border-radius: 2px 0 0 2px;
+}
+
+.myslider_option {
+  position: relative;
+  margin: 10px auto;
+  width: 160px;
+  font-size: 18px;
+}
+
 /* =============== $My Projects ====================*/
 
 #project_background{
 	margin-top: 50px;
+	margin-left: 10px;
+	margin-bottom: 100px;
 }
-
-
 
 
 .project_blog_box{
@@ -466,6 +708,7 @@ select{
 }
 
 
+
 /* ================================= $Middle section ============================ */
 
 #middle_section{
@@ -476,7 +719,7 @@ select{
 }
 
 #middle_section p{
-	 width: 62.5% ;/* 600px/960px */
+	 width: 600px ;/* 600px/960px */
 	 margin:0 auto;
 	 font-size: 1.5em;
 	 line-height:30px;
